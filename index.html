@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box type</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="heading">GeeksforGeeks survey form</h1>
+        <!-- Main form start here -->
+        <form action="" class="form">
+            Name
+            <br />
+            <input type="text" name="name" id="name" class="input" placeholder="Enter your name">
+            <br /><br />
+            Email
+            <br />
+            <input type="text" name="email" id="email" class="input" placeholder="Enter your email">
+            <br /><br />
+            Age
+            <br />
+            <input type="number" name="age" id="age" class="input" placeholder="Enter your age">
+            <br /><br />
+            Which option best describes you?
+            <br />
+            <select 
+            name="opt" 
+            id="opt" 
+            class="input"
+            >
+                <option value="std">Student</option>
+                <option value="int">Intern</option>
+            </select>
+            <br /><br />
+            Would you recommend GeeksforGeeks to a friend?
+            <br />
+            <input 
+            type="radio" 
+            name="yes" 
+            id="yes" 
+            class="rad"
+            > 
+            Yes
+            <br />
+            <input 
+            type="radio" 
+            name="yes" 
+            id="No" 
+            class="rad"
+            > 
+            No
+            <br />
+            <input 
+            type="radio" 
+            name="yes" 
+            id="Maybe" 
+            class="rad"
+            > 
+            Maybe
+            <br /><br />
+            Languages and Frameworks known (Check all that apply)
+            <br />
+            <input type="checkbox" name="c" id="c" class="check"> C
+            <br />
+            <input type="checkbox" name="c++" id="c++" class="check"> C++
+            <br />
+            <input type="checkbox" name="c#" id="c#" class="check"> C#
+            <br />
+            <input type="checkbox" name="java" id="java" class="check"> Java
+            <br />
+            <input type="checkbox" name="pyt" id="pyt" class="check"> Python
+            <br />
+            <input type="checkbox" name="js" id="js" class="check"> Javascript
+            <br />
+            <input type="checkbox" name="react" id="react" class="check"> React
+            <br />
+            <input type="checkbox" name="ang" id="ang" class="check"> Angular
+            <br />
+            <input type="checkbox" name="dj" id="dj" class="check"> Django
+            <br />
+            <input type="checkbox" name="spr" id="spr" class="check"> Spring
+            <br /><br />
+            Any comments or Suggestions
+            <br />
+            <textarea name="comments" id="comments"></textarea>
+            <br /><br />
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
